@@ -22,12 +22,12 @@ from typing import Any, Dict, List, Optional, Set, Tuple
 try:
     import requests
 except ImportError:
-    print("[FATAL] pip install requests"); raise
+    print("[FATAL] pip install -r requirements.txt"); raise
 
 try:
     from bs4 import BeautifulSoup
 except ImportError:
-    print("[FATAL] pip install beautifulsoup4"); raise
+    print("[FATAL] pip install -r requirements.txt"); raise
 
 try:
     import dns.resolver, dns.exception

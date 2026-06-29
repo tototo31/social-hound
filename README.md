@@ -9,7 +9,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 3. Install packages
-pip install requests beautifulsoup4 dnspython rich pyfiglet python-whois
+pip install -r requirements.txt
 
 4. Give acces to Tool
 chmod +x social-hound.py
@@ -19,7 +19,7 @@ python social-hound.py
 
 Windows : 
 1. Install packages
-pip install requests beautifulsoup4 dnspython rich pyfiglet python-whois
+pip install -r requirements.txt
 
 2. Run 
 Double click or copy path and paste into your terminal
